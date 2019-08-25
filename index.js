@@ -17,6 +17,7 @@ var data = {
 var data2 = {
     foo: 'bar'
 };
+
 o[key].push(data);
 o[key].push(data2);
  res.json(o)
