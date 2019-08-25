@@ -1,0 +1,36 @@
+{
+  "components": {},
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Analytics Service API",
+    "version": "1.0.0",
+    "description": "Get api calls statistics and quota usage from analytics pipeline"
+  },
+  "paths": {
+    "/url": {
+      "post": {
+        "tags": "— URL",
+        "summary": "this is the first command.",
+        "description": "the first command of the API.",
+        "consumes": "— application/json",
+        "parameters": {
+          "— name": "body",
+          "in": "body",
+          "schema": {
+            "type": "object",
+            "properties": {
+              "flavor": null,
+              "type": "string"
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Receive back flavor and flavor Id."
+          }
+        }
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,3 +1,26 @@
+/**
+* @swagger
+* /url:
+*   post:
+*     tags:
+*       — URL
+*     summary: this is the first command.
+*     description: the first command of the API.
+*     consumes:
+*       — application/json
+*     parameters:
+*       — name: body
+*       in: body
+*       schema:
+*         type: object
+*         properties:
+*           flavor:
+*           type: string
+*     responses:
+*       200:
+*         description: Receive back flavor and flavor Id.
+*/
+
 var express = require("express");
 var app = express();
 
